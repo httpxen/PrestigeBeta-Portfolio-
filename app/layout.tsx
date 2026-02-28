@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 // 1. Import mo yung CustomCursor dito
 import CustomCursor from "@/components/CustomCursor";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,7 @@ export default function RootLayout({
         {/* 3. Ilagay ang CustomCursor dito para active siya sa lahat ng pages */}
         <CustomCursor />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
