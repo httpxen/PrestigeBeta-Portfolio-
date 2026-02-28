@@ -1,0 +1,19 @@
+# Node modules
+node_modules
+# Next.js build and cache
+.next/
+out/
+
+# Production
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*.local
+
+# OS files
+.DS_Store
