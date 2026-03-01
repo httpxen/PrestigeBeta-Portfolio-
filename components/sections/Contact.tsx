@@ -27,9 +27,9 @@ export default function Contact() {
         </h2>
 
         <p className="text-lg md:text-xl text-zinc-400 mb-12 max-w-2xl mx-auto font-mono leading-relaxed">
-          // Looking for a dev to help ship your next title? 
+            Looking for a dev to help ship your next title? 
           <br /> 
-          Current Status: <span className="text-green-400 font-bold tracking-widest animate-pulse">AVAILABLE FOR QUESTING</span>
+          Current Status: <span className="text-green-400 font-bold tracking-widest animate-pulse">AVAILABLE FOR HIRE</span>
         </p>
 
         {/* 5-Column Grid for Socials */}
@@ -76,13 +76,22 @@ export default function Contact() {
         </div>
 
         {/* System Status Footer */}
-        <div className="inline-flex items-center gap-3 px-6 py-3 bg-zinc-950 border border-zinc-800 rounded-full text-zinc-500 text-xs font-mono uppercase tracking-[0.2em] shadow-inner">
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-          </span>
-          System Stable : Response Latency Low
-        </div>
+          <div className="inline-flex items-center gap-4 px-6 py-3 bg-zinc-950 border border-zinc-800 rounded-full text-zinc-500 text-[10px] sm:text-xs font-mono uppercase tracking-[0.2em] shadow-2xl">
+            <div className="flex items-center gap-2">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+              </span>
+              <span className="text-zinc-300">System Online</span>
+            </div>
+            
+            <div className="h-3 w-[1px] bg-zinc-800"></div> {/* Separator line */}
+            
+            <div className="flex items-center">
+              <span className="text-zinc-500">Version</span>
+              <span className="ml-2 text-zinc-300">V1.0.0</span>
+            </div>
+          </div>
       </motion.div>
     </section>
   );
