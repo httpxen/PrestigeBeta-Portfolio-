@@ -4,27 +4,41 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const projects = [
-  {
-    title: 'Jungle Jumper',
-    description:
-      'High-performance multiplayer framework built for real-time physics synchronization and low-latency input handling.',
-    image: '/projects/project-1.jpg',
-    tags: ['Unity', 'C#', 'Multiplayer'],
-  },
-  {
-    title: 'Neon Drift',
-    description:
-      'Stylized arcade racing experience with dynamic track generation, advanced shader effects, and satisfying drift mechanics.',
-    image: '/projects/project-2.jpg',
-    tags: ['Unity', 'Shader Graph', 'C#', 'Procedural'],
-  },
-  {
-    title: 'Echo Protocol',
-    description:
-      'Stealth-action prototype with modular level design, AI behavior trees, sound-based detection, and dynamic lighting system.',
-    image: '/projects/project-3.jpg',
-    tags: ['Unity', 'C#', 'AI', 'Level Design'],
-  },
+ {
+  title: 'Jungle Jumper',
+  description:
+    'A fast-paced 3D platformer where players collect hearts and race to the finish line, focusing on timing and precision in obstacle-based gameplay.',
+  image: '/projects/J3.png',
+  tags: ['Unity', 'C#', '3D Platformer'],
+},
+{
+  title: 'Ending',
+  description:
+    'A 2D Player vs Zombies game where players survive waves of enemies. Focuses on combat, strategy, and reflex-based gameplay for an intense arcade experience.',
+  image: '/projects/Zomb1 (2).png',
+  tags: ['Unity', 'C#', '2D', 'Arcade', 'Combat'],
+},
+{
+  title: 'Sausage Clash',
+  description:
+    'A humorous arcade game inspired by the Filipino game Batuhan Bola, featuring sausage characters competing in mini-game challenges to score points or knock out opponents.',
+  image: '/projects/Logow.png',
+  tags: ['Unity', 'C#', 'Arcade'],
+},
+{
+  title: 'Jungle Jumper Extreme',
+  description:
+    'An advanced 3D platformer with buffs, debuffs, enemies, more structures, and multiple maps and levels. Features potion systems, companion AI, and skill-based gameplay for an enriched jungle adventure.',
+  image: '/projects/white.png',
+  tags: ['Unity', 'C#', '3D Platformer', 'AI', 'Game Mechanics'],
+},
+{
+  title: 'Play To Prepare',
+  description:
+    'A 3D obstacle-based game focused on natural disasters. Combines OB-style gameplay with puzzles and mini-challenges to encourage problem-solving and strategic thinking.',
+  image: '/projects/fire.png',
+  tags: ['Unity', 'C#', '3D Puzzle', 'Educational'],
+},
 ];
 
 export default function Projects() {

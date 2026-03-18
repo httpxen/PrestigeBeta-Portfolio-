@@ -23,13 +23,13 @@ export default function Contact() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <h2 className="text-5xl lg:text-7xl font-black mb-6 tracking-tighter uppercase italic bg-gradient-to-b from-white via-zinc-200 to-zinc-500 bg-clip-text text-transparent">
-          Ready for <span className="text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]">Player 2?</span>
+  Ready for <span className="text-yellow-400 drop-shadow-[0_0_15px_rgba(255,140,0,0.7)]">Player 2?</span>
         </h2>
 
         <p className="text-lg md:text-xl text-zinc-400 mb-12 max-w-2xl mx-auto font-mono leading-relaxed">
             Looking for a dev to help ship your next title? 
           <br /> 
-          Current Status: <span className="text-green-400 font-bold tracking-widest animate-pulse">AVAILABLE FOR HIRE</span>
+          Current Status: <span className="text-yellow-400 font-bold tracking-widest animate-pulse">AVAILABLE FOR HIRE</span>
         </p>
 
         {/* 5-Column Grid for Socials */}
@@ -68,7 +68,7 @@ export default function Contact() {
 
           {/* LinkedIn */}
           <ContactCard 
-            href="https://linkedin.com/in/yourprofile" 
+            href="https://www.linkedin.com/in/gaspi-lenard-gabriel-049026310/"
             icon={<FaLinkedin size={28} />} 
             label="LinkedIn" 
             color="hover:border-blue-500/50 hover:shadow-blue-500/20"

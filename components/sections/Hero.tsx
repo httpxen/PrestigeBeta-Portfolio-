@@ -46,8 +46,9 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.9 }}
           className="text-xl md:text-3xl text-zinc-300 font-light max-w-3xl mx-auto leading-relaxed mb-12"
         >
-          Crafting immersive worlds in <span className="text-yellow-400 font-medium">Unity</span> • 
-          Designing bold visuals • Turning ideas into playable experiences
+          Building Games in <span className="text-yellow-400 font-medium">Unity</span> • 
+          3D & Multimedia Design 
+          Crafting immersive digital content
         </motion.p>
 
         <motion.div

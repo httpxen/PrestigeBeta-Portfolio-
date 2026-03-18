@@ -7,20 +7,27 @@ import { ArrowUpRight } from "lucide-react";
 
 // Gallery items with categories, titles, and years
 const galleryItems = [
-  { id: 1, category: "Photo Restoration", src: "/gallery/restoration-1.jpg", title: "Vintage Revival", year: "2024" },
-  { id: 2, category: "Photo Restoration", src: "/gallery/restoration-2.jpg", title: "Color Restoration", year: "2024" },
-  { id: 3, category: "Graphic Art", src: "/gallery/art-1.jpg", title: "Sunset Silhouette", year: "2024" },
-  { id: 4, category: "Graphic Art", src: "/gallery/art-2.jpg", title: "Abstract Form", year: "2024" },
-  { id: 5, category: "Graphic Art", src: "/gallery/art-3.jpg", title: "Burning Skies", year: "2024" },
-  { id: 6, category: "Fliers", src: "/gallery/flier-1.jpg", title: "Coding Logic", year: "2024" },
-  { id: 7, category: "Fliers", src: "/gallery/flier-2.jpg", title: "History of C", year: "2024" },
-  { id: 8, category: "Photoshop", src: "/gallery/edit-1.jpg", title: "Portrait Concept", year: "2024" },
-  { id: 9, category: "Photoshop", src: "/gallery/edit-2.jpg", title: "Fashion Spread", year: "2024" },
-  { id: 10, category: "Graphic Design", src: "/gallery/design-1.jpg", title: "Cyber Punk Style", year: "2024" },
-  { id: 11, category: "Graphic Design", src: "/gallery/design-2.jpg", title: "Webinar Poster", year: "2024" },
+  { id: 1, category: "Photo Restoration", src: "/gallery/restoration-1.jpg", title: "Vintage Revival", year: "2021" },
+  { id: 2, category: "Photo Restoration", src: "/gallery/restoration-2.jpg", title: "Color Restoration", year: "2022" },
+  { id: 3, category: "Graphic Art", src: "/gallery/art-1.jpg", title: "Sunset Silhouette", year: "2023" },
+  { id: 4, category: "Graphic Art", src: "/gallery/art-2.jpg", title: "Abstract Form", year: "2022" },
+  { id: 5, category: "Graphic Art", src: "/gallery/art-3.jpg", title: "Burning Skies", year: "2022" },
+  { id: 6, category: "Fliers", src: "/gallery/flier-1.jpg", title: "Coding Logic", year: "2022" },
+  { id: 7, category: "Fliers", src: "/gallery/flier-2.jpg", title: "History of C", year: "2022" },
+  { id: 8, category: "Photoshop", src: "/gallery/edit-1.jpg", title: "Portrait Concept", year: "2019" },
+  { id: 9, category: "Photoshop", src: "/gallery/edit-2.jpg", title: "Fashion Spread", year: "2019" },
+  { id: 10, category: "Graphic Design", src: "/gallery/design-1.jpg", title: "Cyber Punk Style", year: "2023" },
+  { id: 11, category: "Graphic Design", src: "/gallery/design-2.jpg", title: "Webinar Poster", year: "2025" },
+  { id: 12, category: "3D Modeling", src: "/gallery/blender1.png", title: "3D Crownr", year: "2023" },
+  { id: 13, category: "3D Modeling", src: "/gallery/spidertesla.png", title: "Spider Tesla", year: "2023" },
+  { id: 14, category: "3D Modeling", src: "/gallery/ss1.png", title: "3D Texture", year: "2023" },
+  { id: 15, category: "3D Modeling", src: "/gallery/Kitchen.png", title: "3D Kitchen", year: "2023" },
+  { id: 16, category: "Krita", src: "/gallery/kairo.png", title: "2D Painting", year: "2021" },
+  { id: 17, category: "3D Modeling", src: "/gallery/ultimatespidertesla.png", title: "Ultimate Spider Tesla", year: "2026" },
+  { id: 18, category: "3D Modeling", src: "/gallery/liligant.png", title: "Liligant 3D", year: "2023" },
 ];
 
-const categories = ["All", "Photo Restoration", "Graphic Art", "Fliers", "Photoshop", "Graphic Design"];
+const categories = ["All", "Photo Restoration", "Graphic Art", "Fliers", "Photoshop", "Graphic Design","3D Modeling","Krita"];
 
 type GalleryItem = typeof galleryItems[number];
 

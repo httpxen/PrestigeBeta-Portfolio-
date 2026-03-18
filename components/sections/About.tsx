@@ -32,25 +32,28 @@ export default function About() {
             </h1>
 
             <h2 className="text-xl md:text-2xl font-medium text-zinc-400 tracking-tight italic">
-              Game Developer & Graphic Designer
+              Game Developer & Multimedia Artist
             </h2>
           </div>
 
           <div className="max-w-2xl space-y-6 text-zinc-300 leading-relaxed text-lg border-l-2 border-zinc-800/70 pl-6">
-            <p>
-              Bridging the intersection of{' '}
-              <span className="text-yellow-400 font-medium">robust systems architecture</span> and{' '}
-              <span className="text-yellow-400 font-medium">immersive user experience</span>. I deliver
-              end-to-end production solutions for cross-platform titles, focusing on{' '}
-              <span className="text-yellow-400 font-medium">performant engineering</span> and refined
-              gameplay aesthetics.
-            </p>
-            <p>
-              My goal is to create products that are as{' '}
-              <span className="text-yellow-300 font-medium">scalable</span> as they are{' '}
-              <span className="text-yellow-300 font-medium">engaging</span>.
-            </p>
-          </div>
+  <p>
+    I specialize in creating <span className="text-yellow-400 font-medium">engaging games</span>, 
+    <span className="text-yellow-400 font-medium"> interactive systems</span>, and 
+    <span className="text-yellow-400 font-medium"> visually compelling digital experiences</span>. 
+    With expertise in Unity development, 3D modeling and texturing, programming 
+    (C#, C++, Java, HTML), and modern design tools, I transform creative concepts into 
+    polished, playable products.
+  </p>
+
+  <p>
+    From gameplay mechanics and testing to visual design and multimedia production, 
+    I focus on delivering <span className="text-yellow-300 font-medium">high-quality</span>, 
+    <span className="text-yellow-300 font-medium"> innovative</span>, and 
+    <span className="text-yellow-300 font-medium"> performance-driven</span> solutions.
+  </p>
+</div>
+
 
           <div className="flex flex-wrap gap-4 pt-6">
             <motion.a
